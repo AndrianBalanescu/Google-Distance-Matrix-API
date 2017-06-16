@@ -1,0 +1,11 @@
+#Calculate the walking distance and time expenses during two given locations.
+
+import googlemaps
+gmaps = googlemaps.Client(key="")
+matrix = gmaps.distance_matrix(origins="30.50,-95.70", destinations="29.71,-95.38",mode="walking")
+
+distance =matrix['rows'][0]['elements'][0]['distance']
+duration =matrix['rows'][0]['elements'][0]['duration']
+
+print(distance)
+print(duration)
