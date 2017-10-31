@@ -3,7 +3,7 @@ import os
 import csv
 from collections import defaultdict
 
-gmaps = googlemaps.Client(key="AIzaSyDTTdbk89S3IcIIt9PAlZBmXHdy4EfZAVs")
+gmaps = googlemaps.Client(key="AIzaSyDTTdbk89S3Ic####################")
 columns = defaultdict(list)
 
 with open('C:/Users/xzhang10/Desktop/ZXY/Dissertation/Data/Dataset/Park_large/output0.csv', 'w') as csvfile:
