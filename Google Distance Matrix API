@@ -9,7 +9,7 @@ columns = defaultdict(list)
 with open('C:/Users/xzhang10/Desktop/ZXY/Dissertation/Data/Dataset/Park_large/output0.csv', 'w') as csvfile:
     spamwriter = csv.writer(csvfile)
     spamwriter.writerow(['Barcode', 'Distance', 'Duration'])
-    for dirpath, dirnames, files in os.walk("C:/Users/xzhang10/Desktop/ZXY/Dissertation/Data/Dataset/Park_large"):
+    for dirpath, dirnames, files in os.walk("C:/Users/#########/Data/Dataset/Park_large"):
 
         for f in files:
             if f.endswith('ParksToBMI.csv'):
